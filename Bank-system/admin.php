@@ -97,6 +97,7 @@
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="./reports/transaction_reports.php">transaction reports</a>
               <a class="dropdown-item" href="./reports/ministatement.php">mini-statements</a>
+              <a class="dropdown-item" href="reverse.php">Reverse Deposit</a>
             </div>
           </li>
 

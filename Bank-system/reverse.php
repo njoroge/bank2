@@ -54,9 +54,8 @@ $(document).ready(function(){
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
 
-            <li><a class="nav-item nav-link active" href="accountdeposit.php">Deposit money </a></li>
-            <li><a class="nav-item nav-link " href="./reports/transaction_reports.php">Transaction Reports </a></li>
-            <li><a class="nav-item nav-link " href="./reports/ministatement.php">Mini-statements </a></li>
+            <li><a class="nav-item nav-link " href="admin.php"> Home </a></li>
+            <li><a class="nav-item nav-link active " href="reverse.php">Reverse money </a></li>
             <li><a class="nav-item nav-link" href="index.php">logout</a></li>
           </div>
         </div>
@@ -74,7 +73,7 @@ $(document).ready(function(){
 
 
      <div class="col-md">
-        <form action="deposit.php" method="post">
+        <form action="reverse_acc.php" method="post">
         <div class="col-md">
       <div class="search-box">
         <label for="AccNo"><b>Account number:</b></label>
@@ -82,10 +81,10 @@ $(document).ready(function(){
         <div class="result"></div>
         </div>
      </div><br>
-          <label for="Deposit"><b>Deposit amount:</b></label>
-          <input type="number" placeholder="enter amount to deposit" name="balance"  required>
+          <label for="Deposit"><b>Reverse amount:</b></label>
+          <input type="number" placeholder="enter amount to reverse" name="balance"  required>
           <br><br>
-          <button type="submit" class="depositbtn" name="deposit">Deposit</button>
+          <button type="submit" class="depositbtn" name="deposit">Submit</button>
           
         </form>
       </div>

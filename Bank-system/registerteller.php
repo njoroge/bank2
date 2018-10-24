@@ -26,6 +26,8 @@ function Newuser(){
     $data = mysqli_query($conn, $sql);//or die(mysql_error());
 	if($data)
 	{
+        $sql1 ="INSERT into accounts (fname, lname, AccNo, balance, date ) values ( '$fname', '$lname', '$acc', 0.00,now())";
+      mysqli_query($conn,$sql1);
    echo  "<script> alert( ' REGISTRATION COMPLETED SUCCESSFULLY...') </script>";
 	}else{
         echo  "<script> alert( ' REGISTRATION UNSUCCESSFULL...') </script>";
