@@ -1,0 +1,38 @@
+# Python / Django
+__pycache__/
+*.py[cod]
+*$py.class
+*.db
+db.sqlite3
+.env
+env/
+venv/
+*.log
+
+# Django static files
+/django_bank_root/staticfiles/
+/django_bank_root/mediafiles/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# OS generated files
+.DS_Store
+.Thumbs.db
+ehthumbs.db
+
+# IDE settings
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Other
+secrets/
+*.bak
+*.tmp
+*.orig
+*~
+*.old

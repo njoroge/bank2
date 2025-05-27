@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
+// Ensure API calls are relative to the domain Django is serving from.
+const API_BASE_URL = '/api'; 
 
 const axiosInstance = axios.create({
   baseURL: API_BASE_URL,

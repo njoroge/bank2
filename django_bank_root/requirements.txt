@@ -1,0 +1,9 @@
+Django>=4.2,<5.0 # Updated Django version
+djangorestframework
+python-dotenv
+bcrypt
+djangorestframework-simplejwt 
+django-cors-headers
+pytz # Was a dependency for djongo, may or may not be needed by other parts or Django 4.2. Keeping for now.
+psycopg2-binary>=2.8 # Added for PostgreSQL
+# djongo and six removed.
